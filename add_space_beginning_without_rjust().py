@@ -1,9 +1,9 @@
 # Ask user to input text and desired length
-txt = input("Enter text: ")
+string = input("Enter text: ")
 length = int(input("Enter total length: "))
 
 #Add desired spaces
-txt = " " * max(0, length - len(txt)) + txt
+string = " " * max(0, length - len(string)) + string
 
 # Print result
-print("Result:", txt)
+print("Result:", string)
